@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
 make
-site=TODO.com
-rsync -a --delete --files-from=./deployed "$site:/var/www/$site/"
+site=waypointnda.com
+rsync -a --delete ./*.html ./*.css ./*.xml ./*.png files "$site:/var/www/$site/"
