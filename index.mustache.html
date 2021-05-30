@@ -5,9 +5,8 @@
 
     <title>{{name}}</title>
 
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <link rel=stylesheet href=normalize.css>
-    <link rel=stylesheet href=styles.css>
+    {{>styles.html}}
+
     <link rel=alternate href=versions.xml type=application/rss+xml>
 
     <!-- Twitter Card -->
@@ -25,21 +24,7 @@
   </head>
 
   <body>
-    <header>
-      <a href=/><img class=logo src=logo.png alt=Logotype></a>
-      <h1>{{name}}</h1>
-      <p class=catchphrase>{{catchphrase}}</p>
-      <img title=USA alt=USA src=usa.svg class=flag>
-      <img title=Canada alt=Canada src=canada.svg class=flag>
-      <img title=UK alt=UK src=uk.svg class=flag>
-      <!--<img title=India alt=India src=india.svg class=flag>-->
-      <img title=Australia alt=Australia src=australia.svg class=flag>
-      <!--<img title=Israel alt=Israel src=israel.svg class=flag>-->
-      <!--<img title="Hong Kong" alt="Hong Kon" src=hongkong.svg class=flag>-->
-      <!--<img title=Singapore alt=Singapore src=singapore.svg class=flag>-->
-      <!--<img title="New Zealand" alt="New Zealand" src=newzealand.svg class=flag>-->
-      <!--<img title=Nauru alt=Nauru src=nauru.svg class=flag>-->
-    </header>
+    {{>header.html}}
 
     <main>
       <div class=downloads>
@@ -154,9 +139,7 @@
         <p>If you make changes to the {{name}}, other than filling in blanks, remove all mention of “{{trademark}}” and {{domain}}.</p>
       </section>
     </main>
-    <footer>
-      <p>{{name}} is made possible thanks to <a href=thanks>many kind contributors</a>.</p>
-      <p>Source on <a href="https://github.com/{{repo}}">GitHub</a></p>
-    </footer>
+
+    {{>footer.html}}
   </body>
 </html>

@@ -5,17 +5,11 @@
 
     <title>Thanks / {{name}}</title>
 
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <link rel=stylesheet href=normalize.css>
-    <link rel=stylesheet href=styles.css>
+    {{>styles.html}}
   </head>
 
   <body>
-    <header>
-      <a href=/><img class=logo src=logo.png alt=Logotype></a>
-      <h1>{{name}}</h1>
-      <p class=catchphrase>{{catchphrase}}</p>
-    </header>
+    {{>header.html}}
 
     <main>
       <h2>Thanks</h2>
@@ -40,8 +34,7 @@
         <li><a href=https://heathermeeker.com>Heather Meeker</a></li>
       </ul>
     </main>
-    <footer>
-      <p>Source on <a href="https://github.com/{{repo}}">GitHub</a></p>
-    </footer>
+
+    {{>footer.html}}
   </body>
 </html>
