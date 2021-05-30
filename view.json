@@ -1,0 +1,10 @@
+{
+  "name": "Guestbook NDA",
+  "catchphrase": "the standard one-way nondisclosure agreement",
+  "domain": "guestbooknda.com",
+  "latest": "1.0.0",
+  "trademark": "Guestbook",
+  "email": "kyle@kemitchell.com",
+  "repo": "waypointnda/one-way-nda-website",
+  "minimize": "diffs"
+}

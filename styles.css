@@ -1,0 +1,201 @@
+html {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 125%;
+  line-height: 1.4;
+  text-align: left;
+}
+
+body > header, body > main, body > footer {
+  margin: 0 auto;
+  max-width: 30rem;
+  padding: 0 1rem;
+}
+
+body > footer {
+  border-top: 1px dashed black;
+  font-size: 85%;
+  margin-top: 3.5rem;
+  padding: 0 0 5rem 0;
+  text-align: right;
+}
+
+.page {
+  margin-top: 1rem;
+  max-width: 10rem;
+}
+
+body > header {
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+  text-align: left;
+}
+
+h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.catchphrase, .award {
+  font-style: italic;
+  margin-top: 0;
+}
+
+.catchphrase {
+  margin-bottom: 0.5rem;
+}
+
+.conspicuous {
+  font-style: italic;
+  font-weight: bold;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+h2 {
+  font-size: 150%;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 100%;
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.blank {
+  border-bottom: 1px dashed #666;
+  color: #666;
+}
+
+h1 small {
+  display: block;
+  font-size: 50%;
+}
+
+.special[href]:before {
+  content: '☞';
+}
+
+h1 {
+  font-size: 250%;
+}
+
+.logo {
+  max-width: 10rem;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+.nextversion {
+  background-color: #d4edda;
+  border-radius: 0.5rem;
+  color: #155724;
+  padding: 0.8rem;
+}
+
+.jurisdictions {
+  width: 100%;
+}
+
+.jurisdictions tr th {
+  padding-right: 1rem;
+  text-align: right;
+  width: 50%;
+}
+
+.jurisdictions tr td {
+  padding-right: 1rem;
+  text-align: left;
+  width: 50%;
+}
+
+.twoColumn {
+  column-count: 2;
+  padding-left: 1rem;
+}
+
+.twoColumn li {
+  margin-top: 0;
+}
+
+.flag {
+  margin: 0 0.5rem;
+  user-select: none;
+  width: 2rem;
+}
+
+th {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.downloads {
+  text-align: center;
+}
+
+a.button[href] {
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 1ex;
+  border: 1px solid green;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 0.5rem;
+  padding: 1ex 1.5ex;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+a.button:hover {
+  background-color: #218838;
+  border-color: #218838;
+  color: white;
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+}
+
+td, th {
+  vertical-align: top;
+}
+
+th {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+tbody tr:first-child {
+  border-top: 1px solid black;
+}
+
+aside {
+  background: #fcf8e3;
+  border-radius: 0.5rem;
+  border: 1px solid orange;
+  box-sizing: border-box;
+  color: #333;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
