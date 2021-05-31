@@ -4,7 +4,9 @@
   "domain": "guestbooknda.com",
   "latest": "1.0.0",
   "trademark": "Guestbook",
-  "email": "kyle@kemitchell.com",
+  "email": "feedback@guestbooknda.com",
   "repo": "waypointnda/one-way-nda-website",
+  "twitter": "guestbooknda",
+  "versions": [],
   "minimize": "diffs"
 }
