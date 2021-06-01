@@ -7,6 +7,11 @@
   "email": "feedback@guestbooknda.com",
   "repo": "waypointnda/guestbooknda.com",
   "twitter": "guestbooknda",
-  "versions": [],
+  "versions": [
+    {
+      "number": "1.0.0",
+      "date": "Tue 1 Jun 2021 10:17:13 AM PDT"
+    }
+  ],
   "minimize": "diffs"
 }
