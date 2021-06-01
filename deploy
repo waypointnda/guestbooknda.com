@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
 make
-site=waypointnda.com
+site=guestbooknda.com
 rsync -a --delete ./*.html ./*.css ./*.xml ./*.png flags files "$site:/var/www/$site/"
